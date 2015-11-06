@@ -7,5 +7,5 @@ A Method that returns one of several classes that share a common super class
 | Class | Purpose |
 |-------|---------|
 | abstract class | shared methods |
-| class (multiple) | other method |
+| class (multiple) | other methods |
 | factory | dynamically instantiate one of the classes |

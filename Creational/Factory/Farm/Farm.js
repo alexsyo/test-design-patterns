@@ -4,11 +4,11 @@ class Farm {
 
     run() {
     
-        this.plant();
+        console.log(this.plant());
 
         setTimeout(() => {
 
-            this.harvest();
+            console.log(this.harvest());
             this.run();
 
         }, 5000);

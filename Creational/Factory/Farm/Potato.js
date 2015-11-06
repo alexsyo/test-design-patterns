@@ -6,13 +6,13 @@ class Potato extends Farm {
 
     plant() {
     
-        console.log('Potato planted...');
+        return 'Potato planted...';
 
     }
 
     harvest() {
     
-        console.log('Potato harvested!');
+        return 'Potato harvested!';
     
     }
 

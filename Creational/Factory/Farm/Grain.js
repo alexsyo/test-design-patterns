@@ -6,13 +6,13 @@ class Grain extends Farm {
 
     plant() {
     
-        console.log('Grain planted...');
+        return 'Grain planted...';
 
     }
 
     harvest() {
     
-        console.log('Grain harvested!');
+        return 'Grain harvested!';
     
     }
 

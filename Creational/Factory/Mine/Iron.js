@@ -6,13 +6,13 @@ class Iron extends Mine {
 
     dig() {
 
-        console.log('Digging...');
+        return 'Digging...';
 
     }
 
-    collect() {
+    gather() {
 
-        console.log('Iron found!');
+        return 'Iron found!';
 
     }
 

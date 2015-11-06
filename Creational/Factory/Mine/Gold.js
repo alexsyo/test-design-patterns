@@ -6,13 +6,13 @@ class Gold extends Mine {
 
     dig() {
 
-        console.log('Digging...');
+        return 'Digging...';
 
     }
 
-    collect() {
+    gather() {
 
-        console.log('Gold found!');
+        return 'Gold found!';
 
     }
 

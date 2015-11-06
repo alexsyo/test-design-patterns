@@ -4,16 +4,17 @@ class Mine {
 
     run() {
 
-        this.dig();
+        console.log(this.dig());
 
         setTimeout(() => {
 
-            this.collect();
+            console.log(this.gather());
             this.run();
 
         }, 5000);
 
     }
+
 }
 
 module.exports = Mine;

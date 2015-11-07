@@ -4,6 +4,6 @@ let sector = process.argv[2];
 let type = process.argv[3];
 let path = './' + sector + '/' + type;
 
-let Factory = require(path);
+let ResourcesFactory = require(path);
 
-module.exports = new Factory;
+module.exports = new ResourcesFactory;

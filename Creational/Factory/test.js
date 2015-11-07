@@ -2,7 +2,7 @@
 
 let expect = require('chai').expect;
 let sinon = require('sinon');
-let Gold = require('./Mine/Gold');
+let Gold = require('./Resources/Mine/Gold');
 let gold = new Gold;
 
 describe('Gold class', () => {
@@ -47,7 +47,7 @@ describe('Factory', () => {
         process.argv[2] = 'Mine';
         process.argv[3] = 'Gold';
 
-        let factory = require('./Factory');
+        let factory = require('./Resources/ResourcesFactory');
 
         expect(factory).to.be.instanceof(Gold);
 

@@ -1,5 +1,5 @@
 'use strict';
 
-let factory = require('./Resources/ResourcesFactory');
+let resourceFactory = require('./Resources/ResourcesFactory');
 
-factory.run();
+resourceFactory.run();

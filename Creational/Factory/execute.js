@@ -1,5 +1,9 @@
 'use strict';
 
-let resourceFactory = require('./Resources/ResourcesFactory');
+let sector = process.argv[2];
+let type = process.argv[3];
 
-resourceFactory.run();
+let ResourceFactory = require('./Resources/ResourcesFactory');
+let resource = ResourceFactory.make(sector, type);
+
+resource.run();

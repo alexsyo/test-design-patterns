@@ -44,12 +44,9 @@ describe('Factory', () => {
 
     it('should instantiate the gold class', () => {
 
-        process.argv[2] = 'Mine';
-        process.argv[3] = 'Gold';
-
         let factory = require('./Resources/ResourcesFactory');
 
-        expect(factory).to.be.instanceof(Gold);
+        expect(factory.make('Mine', 'Gold')).to.be.instanceof(Gold);
 
     });
 

@@ -1,9 +1,16 @@
 'use strict';
 
-let sector = process.argv[2];
-let type = process.argv[3];
-let path = './' + sector + '/' + type;
+class ResourcesFactory {
 
-let ResourcesFactory = require(path);
+    static make(sector, type) {
 
-module.exports = new ResourcesFactory;
+        let path = './' + sector + '/' + type;
+        let instance = require(path);
+
+        return new instance;
+
+    }
+
+}
+
+module.exports = ResourcesFactory;

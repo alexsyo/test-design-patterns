@@ -3,7 +3,7 @@
 let expect = require('chai').expect;
 let sinon = require('sinon');
 let Gold = require('./Resources/Mine/Gold');
-let gold = new Gold;
+let gold = new Gold();
 
 describe('Gold class', () => {
 

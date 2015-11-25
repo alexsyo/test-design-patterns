@@ -5,9 +5,9 @@ class ResourcesFactory {
     static make(sector, type) {
 
         let path = './' + sector + '/' + type;
-        let instance = require(path);
+        let Instance = require(path);
 
-        return new instance;
+        return new Instance();
 
     }
 

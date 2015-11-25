@@ -6,7 +6,7 @@ class GoldMinerBotBuilder {
 
     constructor() {
 
-        this.minerBot = new MinerBot;
+        this.minerBot = new MinerBot();
 
     }
 

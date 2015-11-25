@@ -4,15 +4,10 @@ let Mine = require('./Mine');
 
 class Gold extends Mine {
 
-    dig() {
+    constructor() {
 
-        return 'Digging...';
-
-    }
-
-    gather() {
-
-        return 'Gold found!';
+        super();
+        this.ore = 'Gold';
 
     }
 

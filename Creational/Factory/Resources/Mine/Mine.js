@@ -2,6 +2,18 @@
 
 class Mine {
 
+    dig() { 
+
+        return 'Digging...';
+
+    }
+
+    gather() {
+    
+        return `${this.ore} found!`;
+
+    }
+
     run() {
 
         console.log(this.dig());

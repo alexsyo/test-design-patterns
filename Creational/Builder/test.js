@@ -3,9 +3,9 @@
 let expect = require('chai').expect;
 let sinon = require('sinon');
 let MinerBot = require('./MinerBot/MinerBot');
-let minerBot = new MinerBot;
+let minerBot = new MinerBot();
 let IronMinerBotBuilder = require('./MinerBot/IronMinerBotBuilder');
-let ironMinerBotBuilder = new IronMinerBotBuilder;
+let ironMinerBotBuilder = new IronMinerBotBuilder();
 let MinerBotDirector = require('./MinerBot/MinerBotDirector');
 let minerBotDirector = new MinerBotDirector(ironMinerBotBuilder);
 
